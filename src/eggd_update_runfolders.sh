@@ -30,7 +30,7 @@ main() {
     project_name=$(dx describe $DX_PROJECT_CONTEXT_ID | grep ^Name | awk -F " " '{print $NF}')
     IFS='\_' read -r category runfolder <<< $project_name # Remove project prefix e.g. 002
     echo "RF $runfolder"
-    samples=$(sed "0,/Data/d" < SampleSheet | sed '1d' | awk -F "," '{print $2}' | grep -v NA12878 )  # Get all sample IDs, except NA12878 (as it's not in the database)
+    samples=$(sed "0,/Data/d" < SampleSheet | sed '1d' | awk -F "," '{print $2}' | grep -v NA12878 | sort | uniq )  # Get all sample IDs, except NA12878 (as it's not in the database)
     
     for sample in $samples; do 
       echo “${sample}^${runfolder}”; 
