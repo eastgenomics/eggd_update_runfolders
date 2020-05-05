@@ -1,5 +1,5 @@
 <!-- dx-header -->
-# eggd_update_runfolders (DNAnexus Platform App)
+# update_runfolders (DNAnexus Platform App)
 
 
 ## What does this app do?

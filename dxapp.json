@@ -1,7 +1,7 @@
 {
-  "name": "eggd_update_runfolders",
-  "title": "eggd_update_runfolders",
-  "summary": "eggd_update_runfolders",
+  "name": "update_runfolders",
+  "title": "update_runfolders",
+  "summary": "update_runfolders",
   "dxapi": "1.0.0",
   "version": "1.0.0",
   "inputSpec": [
