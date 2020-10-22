@@ -1,14 +1,16 @@
 <!-- dx-header -->
 # eggd_update_runfolders (DNAnexus Platform App)
 
-
 ## What does this app do?
+
 The app generates a text file used to update run folders within the Gemini database for all samples on a given sample sheet.
 
 ## What are typical use cases for this app?
+
 This app should be executed as part of a DNAnexus workflow for multiple samples.
 
 ## What data are required for this app to run?
+
 This app requires the SampleSheet.csv file for a run as input.
 
 ## What does this app output?
