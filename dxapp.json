@@ -1,11 +1,11 @@
 {
-  "name": "update_runfolders_v1.0.1",
+  "name": "update_runfolders_v1.0.2",
   "title": "update_runfolders",
   "summary": "update_runfolders",
   "dxapi": "1.0.0",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "properties": {
-    "githubRelease": "v1.0.1"
+    "githubRelease": "v1.0.2"
   },
   "inputSpec": [
     {
@@ -38,7 +38,7 @@
     "interpreter": "bash",
     "release": "16.04",
     "distribution": "Ubuntu",
-    "file": "src/eggd_update_runfolders.sh"
+    "file": "src/update_runfolders.sh"
   },
   "regionalOptions": {
     "aws:eu-central-1": {
